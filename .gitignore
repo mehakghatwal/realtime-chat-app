@@ -1,0 +1,41 @@
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Maven / Backend
+backend/target/
+backend/.flattened-pom.xml
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.next
+backend/release.properties
+backend/dependency-reduced-pom.xml
+backend/buildNumber.properties
+backend/.mvn/timing.properties
+backend/.mvn/wrapper/.maven-wrapper.jar
+
+# Log files
+*.log
+logs/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
