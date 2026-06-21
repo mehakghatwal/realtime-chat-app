@@ -288,27 +288,37 @@ ${imgTag('screenshot_backend_api.png', '90%')}
 
 <!-- PAGE 12: GITHUB -->
 <h2>PAGE 12 – GITHUB REPOSITORY DETAILS</h2>
-<h3>Project Repositories</h3>
-<ul>
-  <li><strong>Frontend Repository URL:</strong> https://github.com/mehakghatwal/realtime-chat-app/tree/main/frontend</li>
-  <li><strong>Backend Repository URL:</strong> https://github.com/mehakghatwal/realtime-chat-app/tree/main/backend</li>
-</ul>
-<h3>File Structure:</h3>
-<pre style="font-size:7.5pt;margin-top:4px;">realtime-chat-app/
+<table style="width: 100%; border: none; border-collapse: collapse; margin-top: 5px;">
+  <tr style="background: none;">
+    <td style="border: none; width: 50%; padding: 4px; vertical-align: top;">
+      <h3 style="margin-top:0px;">Project Repositories</h3>
+      <ul style="padding-left:14px; margin-top:0px; margin-bottom:5px; font-size:8.5pt;">
+        <li><strong>Frontend Repository:</strong><br/><span style="word-break:break-all; color:#B45309;">https://github.com/mehakghatwal/realtime-chat-app/tree/main/frontend</span></li>
+        <li style="margin-top:6px;"><strong>Backend Repository:</strong><br/><span style="word-break:break-all; color:#B45309;">https://github.com/mehakghatwal/realtime-chat-app/tree/main/backend</span></li>
+      </ul>
+      <h3 style="margin-top:6px; margin-bottom:2px;">File Structure:</h3>
+      <pre style="font-size:7.2pt; margin:0px; padding:4px; line-height:1.25; background:#FFFBEB; border:1px solid #FDE68A; border-radius:4px;">realtime-chat-app/
 ├── backend/
 │   ├── src/main/java/com/chatapp/
-│   │   ├── config/          &lt;-- SecurityConfig, WebSocketConfig
-│   │   ├── controller/      &lt;-- AuthController, ChatController
-│   │   ├── dto/             &lt;-- LoginRequest, SignupRequest, JwtResponse
-│   │   ├── model/           &lt;-- User, ChatMessage, ChatRoom, UserStatus
-│   │   ├── repository/      &lt;-- UserRepository, ChatMessageRepository
-│   │   └── security/        &lt;-- JwtUtils, JwtAuthFilter
+│   │   ├── config/
+│   │   ├── controller/
+│   │   ├── dto/
+│   │   ├── model/
+│   │   ├── repository/
+│   │   └── security/
 │   └── pom.xml
 └── frontend/
     ├── src/
-    │   ├── components/      &lt;-- ChatPanel, LoginForm, Sidebar
+    │   ├── components/
     │   └── App.jsx
     └── package.json</pre>
+    </td>
+    <td style="border: none; width: 50%; padding: 4px; text-align: center; vertical-align: top;">
+      <p style="font-weight: bold; color: #78350F; font-size: 8pt; margin: 0 0 3px 0;">GitHub Repository Page Output:</p>
+      ${imgTag('chat_github_repo_screenshot.png', '100%')}
+    </td>
+  </tr>
+</table>
 <div class="pb"></div>
 
 <!-- PAGE 13: DAILY TASKS -->
