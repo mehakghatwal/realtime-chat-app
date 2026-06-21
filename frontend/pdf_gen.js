@@ -290,8 +290,8 @@ ${imgTag('screenshot_backend_api.png', '90%')}
 <h2>PAGE 12 – GITHUB REPOSITORY DETAILS</h2>
 <h3>Project Repositories</h3>
 <ul>
-  <li><strong>Frontend:</strong> <code>realtime-chat-app/frontend</code></li>
-  <li><strong>Backend:</strong> <code>realtime-chat-app/backend</code></li>
+  <li><strong>Frontend Repository URL:</strong> https://github.com/mehakghatwal/realtime-chat-app/tree/main/frontend</li>
+  <li><strong>Backend Repository URL:</strong> https://github.com/mehakghatwal/realtime-chat-app/tree/main/backend</li>
 </ul>
 <h3>File Structure:</h3>
 <pre style="font-size:7.5pt;margin-top:4px;">realtime-chat-app/
